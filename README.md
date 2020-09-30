@@ -14,11 +14,13 @@ This very simple SQL script updates the Populated Template of any MS SQL ODS dat
 ## Setup Instructions
 
 **1)** Open SQL Server Management Studio
-From the **File => Ope -> File** menu, browse for the location of the t-sql script in your computer.
+From the **File** menu, go to  **Open -> File**, browse for the location of the t-sql script in your computer and open it.
 
 
 **2)** Replace the [DBName] with the actual name of the target Database.
 
+
+**3)** If you intend to upgrade the ODS data to a year other than current school year, please set the value of @targetSchoolYear to the desired School Year
 
 
 ## Legal Information
