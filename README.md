@@ -23,6 +23,9 @@ From the **File** menu, go to  **Open -> File**, browse for the location of the 
 **3)** If you intend to upgrade the ODS data to a year other than current school year, please set the value of **@targetSchoolYear** to the desired School Year
 </br> ![Target Year](https://github.com/Ed-Fi-Exchange-OSS/Ed-Fi-Sample-Data-Time-Travel-Script/blob/main/target_year.png)
 
+**4)** Execute the script. 
+
+
 ## Legal Information
 
 Copyright (c) 2020 Ed-Fi Alliance, LLC and contributors.
