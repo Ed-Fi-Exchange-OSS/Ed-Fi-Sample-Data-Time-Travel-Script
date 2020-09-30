@@ -15,13 +15,13 @@ This very simple SQL script updates the Populated Template of any MS SQL ODS dat
 
 **1)** Open SQL Server Management Studio
 From the **File** menu, go to  **Open -> File**, browse for the location of the t-sql script in your computer and open it.
-
+</br> ![File Menu](https://github.com/Ed-Fi-Exchange-OSS/Ed-Fi-Sample-Data-Time-Travel-Script/blob/main/file_menu.png)
 
 **2)** Replace the [DBName] with the actual name of the target Database.
-
+</br> ![File Menu](https://github.com/Ed-Fi-Exchange-OSS/Ed-Fi-Sample-Data-Time-Travel-Script/blob/main/dbname.png)
 
 **3)** If you intend to upgrade the ODS data to a year other than current school year, please set the value of @targetSchoolYear to the desired School Year
-
+</br> ![File Menu](https://github.com/Ed-Fi-Exchange-OSS/Ed-Fi-Sample-Data-Time-Travel-Script/blob/main/target_year.png)
 
 ## Legal Information
 
