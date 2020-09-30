@@ -15,7 +15,7 @@ This very simple SQL script updates the Populated Template of any MS SQL ODS dat
 
 **1)** Open SQL Server Management Studio
 From the **File** menu, go to  **Open -> File**, browse for the location of the t-sql script in your computer and open it.
-
+!(/images/logo.png)
 
 **2)** Replace the [DBName] with the actual name of the target Database.
 
