@@ -3,7 +3,7 @@ These scripts were made possible thanks to the Michael and Susan Dell Foundation
 
 ## Description
 
-This very simple SQL script updates the Populated Template of any Ms SQL ODS database to the most recent school year and dates relatedto it.
+This very simple SQL script updates the Populated Template of any MS SQL ODS database to the most recent school year and dates related to it.
 
 
 ## Prerequisites
