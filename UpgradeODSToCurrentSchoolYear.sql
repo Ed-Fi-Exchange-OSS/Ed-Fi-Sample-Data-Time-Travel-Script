@@ -5,7 +5,7 @@
 --              Except for 'CreateDate' and 'LastModifiedDate', this logic will update all columns that have the keywords
 --              'Date' or 'Year' as part of the name. 
 -- ========================================================================================================
-USE [v3.4.0_Production_EdFi_Ods]
+USE [DBName]
 GO
 
 --by default the query will always attempt to update date to the current year. 
