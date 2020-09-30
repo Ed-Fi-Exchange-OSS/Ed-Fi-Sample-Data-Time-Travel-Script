@@ -13,12 +13,12 @@ This very simple SQL script updates the Populated Template of any MS SQL ODS dat
 
 ## Setup Instructions
 
-**1)** Open SSMS
-From the **Windows Menu**, search for **PowerShell**, right click on it, and select **Run as Administrator**
-<br/><img src="img/powershell1.png" width="600" >
+**1)** Open SQL Server Management Studio
+From the **File => Ope -> File** menu, browse for the location of the t-sql script in your computer.
 
-**2)** Run the automated installer by pasting this command in to the PowerShell window:
-> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://github.com/Ed-Fi-Exchange-OSS/Ed-Fi-MetabaseChronicAbsenteeismQuickStart/raw/main/install.ps1'))
+
+**2)** Replace the [DBName] with the actual name of the target Database.
+
 
 
 ## Legal Information
