@@ -10,7 +10,7 @@ GO
 
 --by default the query will always attempt to update date to the current year. 
 DECLARE @targetSchoolYear SMALLINT = CASE WHEN MONTH(GETDATE()) >= 7 THEN YEAR(GETDATE()) + 1 ELSE YEAR(GETDATE())  END;
-DECLARE @existingSchoolYear SMALLINT = (SELECT TOP(1) SchoolYear FROM edfi.CalendarDate ORDER BY SchoolYear DESC);
+DECLARE @existingSchoolYear SMALLINT = (SELECT TOP(1) SchoolYear FROM edfi.Calendar ORDER BY SchoolYear DESC);
 DECLARE @yearDifference SMALLINT = @targetSchoolYear - @existingSchoolYear;
 
 IF (@yearDifference > 0)
