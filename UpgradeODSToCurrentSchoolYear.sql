@@ -78,7 +78,7 @@ IF (@yearDifference > 0)
 										                                        /*
 																				   Adding the year difference to the existing year column
 																				*/																				
-																				'[' + @columnName + '] + ' + CAST(@yearDifference AS NVARCHAR(max))  										                                        
+																				'COALESCE([' + @columnName + '],' + CAST(@existingSchoolYear AS NVARCHAR) + ') + ' + CAST(@yearDifference AS NVARCHAR(max))  										                                        
 																				ELSE
 																				/*
 																				   Transporting the existing date column to the target year.
