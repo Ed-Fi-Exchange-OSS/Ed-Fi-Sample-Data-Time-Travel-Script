@@ -1,5 +1,5 @@
 -- =======================================================================================================
--- Author:      Emilio Baez, Sr. Solution Architect @ Near Shore Devs
+-- Author:      Emilio Baez, Sr. Solution Architect @ Developers.Net
 -- Create date: 09/07/2020
 -- Description:	This T-SQL script was created to help update an Ed-FI ODS DB to the most recent school year.
 --              Except for 'CreateDate' and 'LastModifiedDate', this logic will update all columns that have the keywords
