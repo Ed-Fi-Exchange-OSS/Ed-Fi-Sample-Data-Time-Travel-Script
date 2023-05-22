@@ -38,7 +38,7 @@ IF (@yearDifference > 0)
 		   (CHARINDEX('Year',c.COLUMN_NAME,1) > 0 AND CHARINDEX('int',c.DATA_TYPE,1) > 0)      
 		  )
 	AND c.COLUMN_NAME NOT IN ('CreateDate','LastModifiedDate')
-	AND c.TABLE_SCHEMA NOT IN ('SchoolYearType')
+	AND c.TABLE_NAME NOT IN ('SchoolYearType')
 	AND NOT EXISTS (SELECT 1 
 					FROM INFORMATION_SCHEMA.VIEWS v
 					WHERE c.TABLE_CATALOG = v.TABLE_CATALOG
